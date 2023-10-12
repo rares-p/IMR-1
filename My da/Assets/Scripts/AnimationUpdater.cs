@@ -13,7 +13,6 @@ public class AnimationUpdater : MonoBehaviour
 
     void Start()
     {
-        Debug.Log($"numele + {this.name}");
         animator = GetComponent<Animator>();
     }
 
